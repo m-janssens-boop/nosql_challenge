@@ -1,5 +1,16 @@
 # nosql_challenge
 
-This repository contains two jupyter notebooks, NoSQL_setup.ipynb and NoSQL_analysis.ipynb.
+Background
+--------
+Extract information from the [Mars News Website](https://static.bc-edx.com/data/web/mars_news/index.html) and the [Mars Temperature Data Site](https://static.bc-edx.com/data/web/mars_facts/temperature.html) via both automated browsing with Splinter and HTML parsing with Beautiful Soup. Analyze the data extracted and save it to a CSV file. 
 
-NoSQL_setup.ipynb uses MongoDB to import a JSON file of data on various establishments conatined in different geographical locations and create a database. It then uses PyMongo to update, parse, and clean the data within the database. NoSQL_analysis.ipynb uses the updated database, PyMongo, and Pandas to perform exploratory analysis on the establishments collection in the database. Different dataframes are compiled using various criteria (including hygiene scores, proximity to other establishments, and rating values).
+## Objective ##
+#### Part 1: Scrape Titles and Preview Text from Mars News ####
+- Use automated browsing to visit the [Mars News Website](https://static.bc-edx.com/data/web/mars_news/index.html). 
+- Create a Beautiful Soup object and use it to extract text elements from the website.
+- Extract the titles and preview text of the news articles that were scraped. Store the scraping results in Python data structures as follows:
+  - Store each title-and-preview pair in a Python dictionary and, give each dictionary two keys: `title` and `preview`.
+  - Store all the dictionaries in a Python list.
+  - Print the list in the notebook.
+
+#### Part 2: Scrape and Analyze Mars Weather Data ####
