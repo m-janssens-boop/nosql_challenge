@@ -26,6 +26,7 @@ Make the following changes to the establishments collection:
   - Using `update_many` to convert `RatingValue` to integer numbers.
 ### Part 3: Exploratory Analysis ###
 #### Objective ####
+The analysis portion of this script can be found in `NoSQL_analysis.ipynb`
 To answer the proceeding questions, do the following:
 - Use `count_documents` to display the number of documents contained in the result.
 - Display the first document in the results using `pprint`.
@@ -35,3 +36,4 @@ Note: The scores for Hygiene, Structural, and ConfidenceInManagement work in rev
 2. Which establishments in London have a `RatingValue` greater than or equal to 4?
 3. What are the top 5 establishments with a `RatingValue` of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 4. How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
+<img width="218" alt="Screenshot 2023-07-10 at 12 29 04 PM" src="https://github.com/m-janssens-boop/nosql_challenge/assets/127706155/9e9bad64-0e83-477e-b8fb-c525813cce16">
